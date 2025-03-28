@@ -44,6 +44,7 @@ llm = AzureChatOpenAI(
     api_key=AZURE_OPENAI_API_KEY,
     azure_endpoint=AZURE_OPENAI_ENDPOINT
 )
+from config import AZURE_OPENAI_API_KEY, AZURE_OPENAI_ENDPOINT, OPENAI_MODEL_VERSION
 
 agent = initialize_agent(
     tools=tools,

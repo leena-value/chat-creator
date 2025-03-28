@@ -6,3 +6,6 @@ streamlit
 fastapi
 uvicorn
 redis
+langgraph
+pydantic
+requests
